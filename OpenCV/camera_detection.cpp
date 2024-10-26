@@ -7,7 +7,7 @@
 using namespace cv;
 using namespace std;
 
-// regresi polinomial
+// regresi
 float hitungJarak(float diameterPixel) {
     return (0.0003 * pow(diameterPixel, 2)) - (0.2859 * diameterPixel) + 77.6615;
 }
